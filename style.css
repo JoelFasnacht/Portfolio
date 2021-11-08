@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    
+}
+.section-home{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/background.jpg);
+}
+
+
+.navbar-list li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-list{
+    list-style: none;
+}
+.social-list li{
+    display: inline-block;
+    
+}
+.navbar{
+    padding: 20px;
+    background-color: rgb(43, 44, 44);
+}
+a{
+    text-decoration: none;
+    color: rgb(112, 105, 105);
+}
+a:hover{
+    color: rgb(165, 158, 158);
+}
+.social-logo{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    color: rgb(112, 105, 105);
+}
+.social-logo:hover{
+    color: rgb(165, 158, 158);
+}
+
+h1{
+    color: #9899A6;
+    text-align: center;
+}
+.profile{
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+.profile-container{
+    margin: 0 2%
+}
+
+.pic{
+    margin: 0 2%;
+}
+.section-projects{
+    height: 50vh;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(43, 44, 44);
+}
+.profile-picture{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
