@@ -12,6 +12,16 @@ body{
     background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/background.jpg);
 }
 
+p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.about-me{
+    padding: 5%;
+    letter-spacing: .1rem;
+    word-spacing: .2rem;
+}
 
 .navbar-list li{
     display: inline-block;
@@ -71,21 +81,38 @@ h1{
 .pic{
     margin: 0 2%;
 }
-.section-projects{
-    height: 50vh;
-}
+
 footer{
     display: flex;
     width: 100vw;
     height: 100px;
     justify-content: flex-end;
     align-items: center;
-    position: absolute;
-    bottom: 0;
     background-color: rgb(43, 44, 44);
+
 }
 .profile-picture{
     border-radius: 50%;
     height: 200px;
     width: 200px;
+}
+
+.project{
+    text-align: center;
+}
+.about-me-photos{
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 auto;
+    
+}
+.photo-container{
+    display: flex;
+    width: 32.8%;
+    margin: 0 .6%;
+}
+.gallery-pic{
+    width: 100%;
+    margin: 0 .6%;
 }
