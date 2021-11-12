@@ -4,9 +4,9 @@
     padding: 0;
 }
 body{
-    background-color: black;
-    height: 100vh;
-    
+   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/woods.jpg);
+    width: 100vw;
+    background-size: cover;
 }
 .section-home{
     background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/background.jpg);
@@ -14,7 +14,7 @@ body{
 
 p{
     text-align: center;
-    color: aliceblue;
+    color:  #e0e0e4;
 }
 
 .about-me{
@@ -45,7 +45,7 @@ p{
 }
 a{
     text-decoration: none;
-    color: rgb(112, 105, 105);
+    color:  #e0e0e4;
 }
 a:hover{
     color: rgb(165, 158, 158);
@@ -57,48 +57,51 @@ a:hover{
     color: rgb(112, 105, 105);
 }
 .social-logo:hover{
-    color: rgb(165, 158, 158);
+    color: #e0e0e4 ;
 }
 
-h1{
-    color: #9899A6;
+h1, h2{
+    color: #e0e0e4;
     text-align: center;
 }
-.profile{
-    width: 60vw;
-    height: auto;
-    margin: 0 auto;
-    background-color: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 0;
+h1{
+    font-size: 4rem;
+    
 }
-.profile-container{
-    margin: 0 2%
-}
-
-.pic{
-    margin: 0 2%;
+h2{
+    text-decoration: underline;
 }
 
 footer{
     display: flex;
     width: 100vw;
-    height: 100px;
+    height: 60px;
     justify-content: flex-end;
     align-items: center;
+    position: absolute;
     background-color: rgb(43, 44, 44);
+    bottom: 0;
 
 }
+#me{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+
 .profile-picture{
     border-radius: 50%;
     height: 200px;
     width: 200px;
 }
 
-.project{
+#projects{
     text-align: center;
+    margin-top: 8%;
+}
+#projects-list li{
+    display: inline-block;
+    margin: 0 2%
 }
 .about-me-photos{
     display: flex;
@@ -107,6 +110,13 @@ footer{
     margin: 0 auto;
     
 }
+
+#body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),(rgba(255, 255, 255, 0.9), url(images/woods.jpg)));
+    width: 100vw;
+    background-size: cover;
+}
+
 .photo-container{
     display: flex;
     width: 32.8%;
